@@ -1,0 +1,17 @@
+docs/*
+results
+dist
+workspace
+AGENTS.md
+
+.venv
+__pycache__
+*.db
+.env
+.env.*
+arc_compiler.egg-info
+
+/build
+example/smoke-smoke
+
+*.log

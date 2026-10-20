@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arc-compiler"
+version = "1.2.0"
+description = "Agentic Requirement Compiler"
+requires-python = ">=3.11"
+dependencies = [
+  "openai>=2.44.0",
+  "python-dotenv",
+  "pyyaml",
+  "colorama",
+]
+
+[project.scripts]
+arc = "main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["main"]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = [
+  "compiler",
+  "compiler.*",
+  "cli",
+  "cli.*",
+  "model",
+  "model.*",
+  "utils",
+  "utils.*",
+]

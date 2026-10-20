@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bug Report</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="card">
+      <h1>Submit a bug report</h1>
+      <p class="hint">
+        Describe the problem you found, including what you did and what you expected to happen.
+      </p>
+      <form method="post" action="/submit">
+        <label for="report">Bug report</label>
+        <textarea
+          id="report"
+          name="report"
+          rows="6"
+          placeholder="Example: Clicking Save closes the form, but my changes are gone when I reopen it."
+        ></textarea>
+        <button type="submit">Submit report</button>
+      </form>
+      <!-- result -->
+    </main>
+  </body>
+</html>
