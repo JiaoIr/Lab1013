@@ -2,9 +2,20 @@
 
 ## 实验材料获取
 
+任选以下任一地址克隆实验仓库。
+
+GitHub：
+
 ```bash
 git clone https://github.com/JiaoIr/Lab1013.git
 cd Lab1013
+```
+
+Gitee（中国大陆网络环境推荐）：
+
+```bash
+git clone https://gitee.com/JiaoIr/lab1013.git
+cd lab1013
 ```
 
 ![克隆实验仓库](imgs/img1.png)
